@@ -6,7 +6,7 @@ const helloWorld = function() {
     return "Hello, World!";
 }
 const sayHello = function(){
-    return "say hello";
+    return "";
 }
 
 // function sum(a, b){
