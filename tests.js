@@ -23,7 +23,15 @@ describe('sayHello', function(){
     it('Should return Hello pat when passed pat', function(){
         expect(sayHello("Pat")).toBe("Hello, Pat!");
     });
-
+    it("Should return Hello, world! when passed undefined", function(){
+        expect(sayHello(undefined)).toBe("Hello, World!")
+    });
+    it("Should return Hello, world when passed true,", function(){
+        expect(sayHello(true)).toBe("Hello, World!")
+    });
+    it ("Should return Hello, World when passed false", function(){
+        expect(sayHello(false)).toBe("Hello, World!")
+    })
 
 });
 
