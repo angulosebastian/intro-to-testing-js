@@ -5,6 +5,10 @@
 const helloWorld = function() {
     return "Hello, World!";
 }
+const sayHello = function(){
+    return "say hello";
+}
+
 // function sum(a, b){
 //     if (b === "sheep"){
 //         return false;
