@@ -34,7 +34,11 @@ describe('sayHello', function(){
     })
 
 });
-
+describe('isFive', function(){
+    it('should return true when passed "5"', function(){
+        expect(typeof isFive(5)).toBe(true)
+    });
+})
 
 
 
