@@ -21,10 +21,17 @@ function sayHello (input){
     }
     return "Hello, " + input + "!";
 }
-function isFive(input){
-    if (input === "5"){
-        return "true";
+function isFive(input) {
+    if  (input === 5){
+        return true
+    }else if (input === "5"){
+        return "string";
     }
+    return (typeof input === 'boolean');
+
+
+
+
 }
 
 
