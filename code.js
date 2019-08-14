@@ -28,11 +28,30 @@ function isFive(input) {
         return "string";
     }
     return (typeof input === 'boolean');
-
-
-
-
 }
+function isEven(input){
+    if (input % 2 === 0){
+        return true
+    }else if (input % 2 ===0 ){
+        return true
+    }else if (input % 2===0){
+        return false
+    }else if (input %2 ===0){
+        return false
+    }else if (input %2 === 0){
+        return true
+    }else if (input%2===0){
+        return false
+    }else if (input %2===0){
+        return false
+    }else if (input %2 ===0){
+        return false
+    }else if (input %2===0){
+        return false
+    }
+    return (typeof input ===' boolean')
+}
+
 
 
 // function sum(a, b){
