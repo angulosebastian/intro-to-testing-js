@@ -4,7 +4,7 @@
 // function expression syntax (assigning an anonymous function to a variable)
 const helloWorld = function() {
     return "Hello, World!";
-}
+};
 function sayHello (input){
     if (input === "Alex"){
         return "Hello, Alex!";
@@ -49,9 +49,28 @@ function isEven(input){
     }else if (input %2===0){
         return false
     }
-    return (typeof input ===' boolean')
+    return (typeof input ==='boolean')
 }
-
+function isVowel(input){
+    if(input === "a"){
+        return true
+    }else if(input === "A"){
+        return true
+    }else if(input === "y"){
+        return false
+    }else if(input === 4){
+        return false
+    }else if(input === true){
+        return false
+    }else if(input === false){
+        return false
+    }else if(input === "banana"){
+        return false
+    }else if(input === ""){
+        return false
+    }
+    return (typeof input === 'boolean')
+}
 
 
 // function sum(a, b){
