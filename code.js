@@ -70,6 +70,14 @@ function isVowel(input){
         return false
     }
     return (typeof input === 'boolean')
+};
+console.log(isVowel());
+function add(a,b) {
+    if(isNaN(a) === true || isNaN(b) === true || a === null || b === null) {
+        return isNaN;
+    }else {
+        return parseInt(a) + parseInt(b);
+    }
 }
 
 
